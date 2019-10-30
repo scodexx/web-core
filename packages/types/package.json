@@ -1,6 +1,6 @@
 {
   "name": "@trustwallet/types",
-  "version": "0.1.6",
+  "version": "0.1.16",
   "description": "Trust common types",
   "homepage": "https://github.com/trustwallet/web-core#readme",
   "keywords": [],
@@ -18,7 +18,8 @@
   "scripts": {
     "create-index": "cti src",
     "build": "webpack",
-    "clean": "shx rm -rf lib node_modules tsconfig.tsbuildinfo"
+    "clean": "shx rm -rf lib node_modules tsconfig.tsbuildinfo",
+    "test": "yarn jest --config ../../jest.config.js --colors"
   },
   "publishConfig": {
     "access": "public"
